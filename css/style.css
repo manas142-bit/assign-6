@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Define a standard size for images in the row */
+.img-uniform {
+    width: 300px;  /* This ensures the image occupies the full width of the parent container */
+    height: 200px;  /* Set a fixed height for the images */
+    object-fit: cover;  /* Ensures the image maintains aspect ratio while filling the designated space */
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
